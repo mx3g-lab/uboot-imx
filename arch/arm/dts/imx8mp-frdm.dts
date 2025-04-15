@@ -22,7 +22,7 @@
 		compatible = "gpio-leds";
 
 		led-0 {
-			gpios = <&pcal6416 15 GPIO_ACTIVE_HIGH>;
+			gpios = <&pcal6416 14 GPIO_ACTIVE_HIGH>;
 			default-state = "on";
 		};
 	};
